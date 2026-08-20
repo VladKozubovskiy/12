@@ -4,11 +4,11 @@ public class Questionnaire {
         String city = "London";
         int age = 28;
         double Temperature = 22.5;
-        boolean pet = true;
+        boolean det = true;
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("City: " + city);
         System.out.println("Temperature: " + Temperature);
-        System.out.println("Has pet: " + pet);
+        System.out.println("Has pet: " + det);
     }
 }
