@@ -6,6 +6,7 @@ public class Dish {
         double ocb3 = 76.5;
         boolean ocb4 = false;
         char ocb5 = '$';
+        System.out.println(name.toLowerCase());
         System.out.println("Dear " + name + ", thank you for visiting our restaurant!");
         System.out.println("Dishes ordered: " + ocb1);
         System.out.println("Cost of 1 dish: " + ocb5 + ocb2);
