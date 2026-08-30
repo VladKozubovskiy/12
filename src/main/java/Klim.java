@@ -19,6 +19,7 @@ public class Klim {
         String text = "   JAVA automation TEST   ";
         System.out.println(text1.charAt(4));
         System.out.println(text2.trim());
+        System.out.println(text2);
         System.out.println(text3.replace('l', 'L'));
         System.out.println(String.join("", firstName1, firstName2));
         System.out.println(String.join(" ", firstName1, firstName2));
@@ -33,12 +34,11 @@ public class Klim {
         System.out.println(text5.toUpperCase());
         System.out.println(password.length());
         System.out.println(login1.equalsIgnoreCase(login2));
-        System.out.println(text.trim());
-        System.out.println(text.toLowerCase());
-        System.out.println(text.replace("JAVA","python"));
+        text = text.trim();
+        text = text.toLowerCase();
+        text.replace("java", "python");
+        System.out.println(text);
         System.out.println(text.contains("python"));
         System.out.println(text.length());
-
-
     }
 }
