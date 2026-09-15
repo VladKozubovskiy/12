@@ -33,14 +33,11 @@ public class Sentyab {
         //вместо true написать false
         int asw = 15;
         int aws = 4;
-        System.out.println(asw % aws);
+        int result = asw % aws;
+        System.out.println(result);
 
         int b = 0;
         b = 5 / 2;
         System.out.print(b);
     }
-    }
-
-
-
-
+}
