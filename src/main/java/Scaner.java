@@ -24,7 +24,7 @@ public class Scaner {
         int pro = a * b;
         System.out.println(" Сумма " + sum);
         System.out.println(" Разность " + raz);
-        System.out.println(" Произведение "+ pro);
+        System.out.println(" Произведение " + pro);
         scanner.close();
     }
 }

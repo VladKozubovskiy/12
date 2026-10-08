@@ -8,7 +8,7 @@ public class Masiv3 {
         days[4] = "пятница";
         days[5] = "суббота";
         days[6] = "воскресенье";
-        for (String day: days){
+        for (String day : days) {
             System.out.println(day.toUpperCase());
         }
     }
