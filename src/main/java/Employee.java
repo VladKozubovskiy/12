@@ -47,7 +47,7 @@ class Manager extends Employee implements Taxable {
         this.baseSalary = baseSalary;
         this.bonus = bonus;
     }
-
+    @Override
     public double calculateSalary() {
         return baseSalary + bonus;
     }
