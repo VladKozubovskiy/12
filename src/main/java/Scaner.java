@@ -20,11 +20,11 @@ public class Scaner {
         System.out.println("Введите второе число");
         int b = scanner.nextInt();
         int sum = a + b;
-        int raz = a - b;
-        int pro = a * b;
+        int difference = a - b;
+        int product = a * b;
         System.out.println(" Сумма " + sum);
-        System.out.println(" Разность " + raz);
-        System.out.println(" Произведение " + pro);
+        System.out.println(" Разность " + difference);
+        System.out.println(" Произведение " + product);
         scanner.close();
     }
 }
